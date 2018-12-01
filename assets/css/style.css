@@ -1,0 +1,40 @@
+ body {
+  background-image: url("../images/ship1.jpg");
+  background-size: cover;
+  font-family: aladin, sans-serif, Times, Times New Roman, serif;;
+  font-size: 30px;
+  text-align: center;
+  margin: 35px;
+ 
+ }
+ h1 {
+   font-family: unifrakturmaguntia, fantasy;
+   font-size:45px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+ }
+
+ }
+ h3 {
+   text-align: center;
+   margin: 20px;
+   
+ }
+#playAgain {
+   font-family: aladin, sans-serif, Times, Times New
+}
+
+.radio-inline {
+  font-size: 23px;
+   font-weight: bold;
+}
+
+#submitButton {
+  padding: 20px;
+}
+
+#startTrivia {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}

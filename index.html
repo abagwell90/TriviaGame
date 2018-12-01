@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Andrew J Bagwell Trivia Game </title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+         crossorigin="anonymous">
+      <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="//use.edgefonts.net/aladin.js"></script>
+   </head>
+   <body>
+      <div class="startTriviaSection">
+         <button id="startTrivia" class="btn btn-primary " name="submit" type="submit">Start Trivia Game</button>
+         <h3> Test your knowledge of the explorers who were the first people to go where no one had gone before! You only have 1 minute and a half to anwer them all.<br><br> Are you a real EXPLORER? </h3>
+      </div>
+      <section>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <h1>
+                  Do You Know These Explorers?
+               </h1>
+               <h3>
+                  TIME <i class="fa fa-clock-o" style="font-size:24px"></i>:<div> <span id="time">01:30</span></div>
+               </h3>
+               <form class="form-horizontal" id="quiz" name="quiz">
+               </form>
+               <div id="submitButton"> 
+                  <button class="btn btn-primary " name="submit" type="submit">Submit!</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section>
+      <div id = "showScore">
+      </div>
+
+<div id = "playAgain">
+<button class="btn btn-primary " onClick="submitQuiz()" name="submit" id ="playAgain" type="submit">Take Test Again</button>
+</div>
+
+      <script src="./assets/javascript/app.js"></script>
+   </body>
+</html>
